@@ -1,3 +1,5 @@
+
+
 body {
     font-family:'Noto Sans TC', sans-serif;
     }
@@ -20,7 +22,17 @@ body {
     background-color:口#495057；
     color: ■#fff;
 }
-    
+
+:root {
+    --bs-primary: #e298d0;
+    --bs-primary-rgb: 226, 152, 208;
+    --bs-secondary: #c27400;
+    --bs-secondary-rgb: 194, 116, 0;
+}
+
+a {
+    color: var(--bs-primary);
+}
     
 .social-icons .social-icon:hover {
     background-color: var(--bs-secondary);
