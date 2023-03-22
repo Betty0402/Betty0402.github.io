@@ -20,3 +20,8 @@ body {
     background-color:口#495057；
     color: ■#fff;
 }
+    
+    
+.social-icons .social-icon:hover {
+    background-color: var(--bs-secondary);
+}
