@@ -19,21 +19,35 @@ body {
     color: #495057;
 }
 .expedu-icon:hover {
-    background-color:口#495057；
+    background-color:口#495057;
     color: ■#fff;
 }
 
 :root {
-    --bs-primary: rgb(240, 195, 228);
-    --bs-primary-rgb: 240, 195, 228;
+    --bs-primary: #eaa5b5;
+    --bs-primary-rgb: 234, 165, 181;
     --bs-secondary: #c27400;
     --bs-secondary-rgb: 194, 116, 0;
 }
 
-a {
+#pink {
     color: var(--bs-primary);
 }
     
 .social-icons .social-icon:hover {
     background-color: var(--bs-secondary);
+}
+
+table {width: 80%;}
+th {background-color:#eeb9b9;}
+th,td {border:1px solid #2a5d44;}
+
+.bling:hover{
+    color: #c27400;
+}
+#abc td{
+    color: #a685f9;
+}
+a{
+    color: inherit;
 }
